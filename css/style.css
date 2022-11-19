@@ -51,11 +51,11 @@ ul {
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
+  padding: 24px 15px;
 }
 
 .header .container {
   display: flex;
-  padding: 24px 15px;
   align-items: center;
 }
 
@@ -119,10 +119,7 @@ ul {
 /*! HERO HERO HERO */
 .hero {
   background-color: #2f303a;
-}
-
-.hero .container {
-  padding: 106px 0;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -157,7 +154,9 @@ ul {
 }
 
 /*! BENEFITS BENEFITS BENEFITS */
-/* .benefits {} */
+.benefits {
+  padding: 94px 0;
+}
 
 .benefits-list {
   width: 1170px;
@@ -194,21 +193,24 @@ ul {
 }
 
 /*! ABOUT ABOUT ABOUT*/
+.about {
+  padding: 0 0 94px 0;
+}
 
-.benefits-about-title {
+.about-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-color);
-  margin: 94px 0 50px 0;
+  margin-bottom: 50px;
 }
 
-.benefits-about-list {
+.about-list {
   display: flex;
 }
 
-.benefits-about-items:nth-child(-n + 2) {
+.about-items:nth-child(-n + 2) {
   margin-right: 30px;
 }
 
@@ -246,7 +248,10 @@ ul {
 
 .team-img {
   display: block;
-  margin-bottom: 30px;
+}
+
+.team-desc {
+  padding: 30px 0;
 }
 
 .team-user {
@@ -320,8 +325,11 @@ ul {
 .features-list-btn {
   display: flex;
   justify-content: center;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
+}
+
+.features-btn-item:nth-child(-n + 4) {
+  margin-right: 8px;
 }
 
 .features-btn {
@@ -342,10 +350,6 @@ ul {
   padding: 6px 25px;
 }
 
-.features-btn:nth-child(-n + 4) {
-  margin-right: 8px;
-}
-
 .features-btn:hover,
 .features-btn:focus {
   color: var(--secondary-color);
@@ -357,17 +361,13 @@ ul {
 .features-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .features-items {
   background: #ffffff;
   width: 370px;
   min-height: 404px;
-  margin: 0 30px 30px 0;
-}
-
-.features-items:nth-child(3n + 3) {
-  margin-right: 0;
 }
 
 .features-img {
