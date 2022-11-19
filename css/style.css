@@ -55,7 +55,7 @@ ul {
 
 .header .container {
   display: flex;
-  padding: 24px 0;
+  padding: 24px 15px;
   align-items: center;
 }
 
